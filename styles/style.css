@@ -2,4 +2,25 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-color: var(--bg-color);
+  width: calc(100% - 20px);
+  font-family: var(--font-family);
+
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 668px;
+  margin-top: 10px;
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header__decorated-element {
+  position: absolute;
+  color: var(--accent-color);
+
 }
