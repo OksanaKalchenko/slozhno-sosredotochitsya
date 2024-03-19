@@ -34,7 +34,7 @@
 
 .header__decorated-element {
   position: absolute;
-  right: 40px; 
+  right: 40px;
   top: var(--min-gap);
   text-transform: uppercase;
   color: var(--decorated-elements-color);
